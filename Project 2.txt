@@ -1,0 +1,15 @@
+This project shows a data management system of a Hotel. In this project JSP and Servlets are used to interact with Database.
+A webpage is created in which a GUI of database is present. This webpage is run on a TOMCAT server. 
+This project also contains some files of servlets which was created just for learning purpose. In the concept of servlets there
+are two methods named as doget and dopost. Both these methods contain request and response objects. When request comes from server
+into servlet it is processed in servlet and then response is delevered to server from servlet.
+Servlet usually interact with a page on server which i defined in UML pattern. This UML pattern is created by two ways
+One way is annotation and other way is UML file. Annotation method came from v5 of java. 
+So to create a web page we design a html file then in that html file we place a action to that accesible page of servlet.so 
+that html file pass all parameters to servlet page from which servlet extract requests and write response on that servlet page.
+BUt now in order for servlet to write data on html file we have to go to other option which is of jsp.
+JSP is combination of java(servlet) and html on single file.
+NOTE: Jsp is itself a servlet. all the methods writen in jsp is transfered to that doget method and then response is accordingly created but
+all is done at back end.  
+Refrence:
+https://www.youtube.com/watch?v=b42CJ0r-1to&list=PLE0F6C1917A427E96
